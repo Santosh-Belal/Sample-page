@@ -1,0 +1,381 @@
+*{
+
+	margin:0;	padding:0;
+
+}
+
+body{
+
+   text-shadow:3px 3px 3px #00ccff87 ;
+
+   font-family:Nunito;
+
+   color:white;
+
+   background-color: #272e49;
+
+    }
+
+    .container{
+
+      height:40rem;
+
+      width:110rem;
+
+      color: #0d0d0d;
+
+      font-size:60px;
+
+      font-weight:bold;
+
+      background: cover;
+
+      background-image: url(https://i.ibb.co/W3Ltc82/top-view-food-frame-with-copy-space-23-2148723447.jpg);
+
+      background-size:cover;
+
+      background-repeat:no-repeat;
+
+      position:relative;
+
+    
+
+}
+
+li{
+
+display:inline-block;
+
+  font-size:100px;
+
+  padding-left:20px;
+
+  margin-right:40px;
+
+  
+
+  float:right;
+
+  font-weight:bold;
+
+  color:#000000;
+
+  list-style:none;
+
+  height:10rem;
+
+  width:10rem
+
+  
+
+}
+
+li a:hover:not(.active) {
+
+  background-color: #555;
+
+  color: white;
+
+}
+
+.menu{
+
+  border-radius:5px;
+
+  box-shadow:4px 4px 4px #00000081;
+
+  border:#00000081;
+
+  display:inline-block;
+
+  opacity:0.7;
+
+  font-size:3rem;
+
+}
+
+.info_data1{
+
+  text-align:center;
+
+}
+
+h1:first-letter{
+
+  font-size:100px;
+
+  color:red;
+
+}
+
+a{
+
+  text-decoration:none;#0bff00
+
+  font-size:30px;
+
+  font-family:'Nunito';
+
+  height:3rem;
+
+  color:blue;
+
+  
+
+}
+
+.contact_bar{
+
+	margin-left:10px;
+
+}
+
+.Service_bar{
+
+	margin-right:200px;
+
+	margin-left:40px;
+
+}
+
+}
+
+h1{
+
+  font-size:40px;
+
+  color: black;
+
+  font-weight:bold;
+
+  text-align: center;
+
+  
+
+}
+
+h2{
+
+  font-size:40px;
+
+  background-image:linear-gradient(#ffb700);
+
+  height:70px;
+
+  width:40rem;
+
+  font-weight:bold;
+
+  box-shadow:20px 20px 20px #000000;
+
+  text-align: center;
+
+  border-radius:9px;
+
+  margin-left:450px;
+
+  
+
+}
+
+.info_data1:first-letter{
+
+  font-size:100px;
+
+  color:red;
+
+}
+
+.order{
+
+  font-size:3rem;
+
+  font-family:'Nunito';
+
+  border-radius:50px;
+
+  border-color:#ff0000;
+
+  background-color:#ff0000;
+
+  border-collapse:collapse;
+
+  margin-left:200px;
+
+  margin-top:10px;
+
+  height:4rem;
+
+  width:20rem;
+
+  box-shadow:15px 15px 15px black;
+
+  
+
+  
+
+  
+
+  
+
+}
+
+.food_items{
+
+  display: flex;
+
+  flex-wrap:wrap;
+
+}
+
+  .container_2{
+
+    height:auto;
+
+    width:auto;
+
+    
+
+    display:flex;
+
+ }
+
+ .edit{
+
+float:right;
+
+font-size:60px;
+
+font-family:Courier New;
+
+display:none;
+
+border:2px #24ff00;
+
+box-shadow: 17px 17px 17px #8ee8ff;
+
+border-radius:9px;
+
+  
+
+  animation-name:example;
+
+  animation-direction:right;
+
+  position:relative;
+
+} 
+
+ .edit_2{
+
+margin-left:200px;
+
+font-size:60px;
+
+font-family:Courier New;
+
+text-align: center;
+
+} 
+
+img{
+
+  width:40rem;
+
+  height:40rem;
+
+  box-shadow:18px 18px 18px #000000;
+
+  margin-top: 50px;
+
+  border-radius:15px;
+
+  margin-left:10px
+
+  position:  relative;
+
+  
+
+}
+
+.container_2:hover .edit{
+
+  
+
+  display:block;
+
+  animation-duration:4s;
+
+  margin-left: 20px;
+
+}
+
+@keyframes example{
+
+  0%{left:100px;}
+
+}
+
+footer{
+
+  margin-left:300px;
+
+}
+
+.data{
+
+  font-size:60px;
+
+  font-family:Courier New;
+
+  display:none;
+
+}
+
+.con:hover .data{
+
+  display: block;
+
+  margin-left:30px;
+
+  
+
+}
+
+p{
+
+  font-size:80px;
+
+  font-family:Courier New;
+
+}
+
+span{
+
+  font-size:3rem;
+
+}
+
+input{
+
+  height:3rem;
+
+  width:30rem;
+
+  display:inline-block;
+
+  
+
+  font-size:40px;
+
+  border:2px green;
+
+  border-radius:30px;
+
+  padding-left:10px;
+
+  opacity:0.7;
+
+  font-family:'Times New Roman';
+
+  display:inline-block;
